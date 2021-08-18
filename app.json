@@ -10,6 +10,7 @@
  ],
  "repository": "https://github.com/PsychoBots/Astro-UB",
   "website": "https://github.com/loverboyXD",
+  "stack": "heroku-20",
   "env": {
    "ENV": {
     "description": "Setting this to ANYTHING will enable heroku.",
@@ -103,7 +104,7 @@
     "value": "",
     "required": false
   }
-  },
+ },
  "addons": [{
   "plan": "heroku-postgresql",
   "options": {
