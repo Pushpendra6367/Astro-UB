@@ -89,7 +89,7 @@
     "required": false
   },
   "A_PIC": {
-    "description": " telegraph link of Picture that you wanna to show in Alive"
+    "description": " telegraph link of Picture that you wanna to show in Alive",
     "value": "",
     "required": false
   },
