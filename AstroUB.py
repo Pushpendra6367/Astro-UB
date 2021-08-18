@@ -7,3 +7,4 @@ system(
 print("You Have Got Error While Deployment Report and Get Help from @Astro_HelpChat")
 # Script written for stop heroku suspension 
 # Thanks to Lucifer X
+#.
