@@ -20,7 +20,7 @@ pytest
 pyshorteners
 aiohttp
 cowpy
-nltk
+
 emoji==0.6.0
 gTTS-token>=1.1.3
 gTTS>=2.0.1
@@ -57,7 +57,7 @@ speedtest-cli>=2.0.2
 sqlalchemy==1.3.20
 telegraph
 tswift
-urbandict>=0.5
+
 wikipedia>=1.4.0
 youtube-search
 youtube-search-python
@@ -81,7 +81,7 @@ pandas
 pydub
 validators
 spamwatch
-nekos.py 
+ 
 deep_translator
 countryinfo
 emoji-country-flag
