@@ -109,10 +109,10 @@ async def fck(event):
     await event.delete()
     await tgbot.send_message(event.chat_id, f"This is Astro UserBot for {OWNER_USERNAME} 😊 To protect him from scammers and lots more...!\n**IF YOU ALSO WANT FOR YOUR ACCOUNT DEPLOY NOW**\n **JOIN SUPPORT FOR HELP**", buttons=[
         [
-          Button.url("Deploy Now🌌", url="https://heroku.com/deploy?template=https://github.com/loverboyXD/AstroUB")
+          Button.url("Deploy Now🌌", url="https://heroku.com/deploy?template=https://github.com/PsychoBots/Astro-UB")
         ],
         [
-          Button.url("Repository✨", url="https://github.com/loverboyXD/AstroUB")
+          Button.url("Repository✨", url="https://github.com/PsychoBots/Astro-UB")
         ],
         [
           Button.url("🔻Support🔺", url="https://t.me/Astro_HelpChat")
