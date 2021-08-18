@@ -35,7 +35,7 @@
     "value": ""
   },
   "OWNER_USERNAME": {
-    "description": "Your Telegram Account Username",
+    "description": "Your Telegram Account Username with '@' ",
     "value": ""
   },
   "BOT_TOKEN": {
@@ -43,7 +43,7 @@
     "value": ""
   },
   "BOT_USERNAME": {
-    "description": "Your bot username get from @BotFather",
+    "description": "Your bot username without '@' get from @BotFather",
     "value": ""
   },
   "HEROKU_API_KEY": {
