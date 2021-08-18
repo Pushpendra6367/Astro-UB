@@ -169,10 +169,10 @@ async def upstream(ups):
         await ups.edit("Update..in progress\n◙◙◙◙◙◙◘◘80%")
         await asyncio.sleep(1)
         await ups.edit("Update..in progress\n◙◙◙◙◙◙◙◘90%")
+        await asyncio.sleep(2)
+        await ups.edit("Update..in progress\n◙◙◙◙◙◙◙◙100%✓")
         await asyncio.sleep(1)
-        await ups.edit("Update..in progress\n◙◙◙◙◙◙◙◙100%")
-        await asyncio.sleep(1)
-        await ups.edit("__Your ƛsτʀ๏ is Updated Sucessfully🤗__\nPlease wait 5min. to re-Start\nuntil a New Deploy Message is Dropped in your Private group")
+        await ups.edit("__Your ƛsτʀ๏ is Updated Sucessfully🤗__")
         
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -190,7 +190,7 @@ async def upstream(ups):
             await ups.edit(f"{txt}\n`Here is the error log:\n{error}`")
             repo.__del__()
             return
-        await ups.edit("Successfully Updated!\n" "Restarting, please wait...")
+        await ups.edit("Successfully Updated!\n" "Restarting, please wait...use alive after 2min. check if i am ALIVE")
     else:
         # Classic Updater, pretty straightforward.
         try:
