@@ -96,14 +96,14 @@ async def on_afk(event):
         if Config.PRIVATE_GROUP_ID:
             await asyncio.sleep(5)
             if not event.is_private:
-                mssgtosend = f"#AFK \nYou were tagged in `{chat.title}`"
+                mssgtosend = f"#AFK \nYou were tagged in👀 `{chat.title}`"
                 try:
                     await tgbot.send_message(
                         Config.PRIVATE_GROUP_ID,
                         mssgtosend,
                         buttons=[
                             Button.url(
-                                "Check Message",
+                                "★Check Message★",
                                 url=f"https://t.me/c/{chat.id}/{event.message.id}",
                             )
                         ],
