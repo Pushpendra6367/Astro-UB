@@ -23,7 +23,7 @@ async def add_bot(bot_token):
 
 async def startup_log_all_done():
     try:
-        await bot.send_message(GROUP, f"Hey..{OWNER_USERNAME} ƛsτʀ๏ IS ON👮\nFor Your security😌\nNow you are 100% Safe By astro-Security😉\nUSE `.alive` To check me😁\nAdd {BOT_USERNAME} to get Notifications related to ASTRO\n~Enjoy~\n\n~ @Astro_HelpChat")
+        await bot.send_message(GROUP, f"Hey..{OWNER_USERNAME} ƛsτʀ๏ IS ON👮\nFor Your security😌\nNow you are 100% Safe By astro-Security😉\nUSE `.alive` To check me😁\n\n α∂∂ {BOT_USERNAME} тσ gєт αłł ησтıƒıcαтıσηs яєłαтє∂ тσ \n~Enjoy~\n\n~ @Astro_HelpChat")
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
 
