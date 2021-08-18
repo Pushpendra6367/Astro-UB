@@ -37,7 +37,7 @@ class Config(object):
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "") 
     DB_URI = os.environ.get("DATABASE_URL", None)
     OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
-    UPSTREAM_REPO_URL = "https://github.com/loverboyXD/ASTRO-UB"
+    UPSTREAM_REPO_URL = "https://github.com/PsychoBots/ASTRO-UB"
     PRIVATE_GROUP_ID = os.environ.get("PRIVATE_GROUP_ID", None) 
     if PRIVATE_GROUP_ID is not None:
        try:
