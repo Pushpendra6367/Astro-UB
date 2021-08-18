@@ -90,6 +90,8 @@
   },
   "A_PIC": {
     "description": " telegraph link of Picture that you wanna to show in Alive"
+    "value": "",
+    "required": false
   },
   "SUDO_USER": {
     "description": "Id of those to whom you wanna to assign as Sudo users",
