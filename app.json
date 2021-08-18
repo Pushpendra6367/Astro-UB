@@ -43,7 +43,7 @@
     "value": ""
   },
   "BOT_USERNAME": {
-    "description": "Your bot username without '@' get from @BotFather",
+    "description": "Your bot username with '@' get from @BotFather",
     "value": ""
   },
   "HEROKU_API_KEY": {
