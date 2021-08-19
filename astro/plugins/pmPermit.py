@@ -35,7 +35,7 @@ USER_BOT_NO_WARN = (
     "__knock Knock__👀\nWho is There✨**This is PM SECURITY OF [{}](tg://user?id={})**\nBY ƛsτʀ๏ υsєяъ๏т\n\n"
         "{}\n\n"
         "\nPlease choose why you are here, from the available options"
-    "{}\n\n**You have** `{}/{}` **⚠️warnings⚠️\nSo Don't Spam Until My Master Will Come**"
+    "\n\n**You have** `{}/{}` **⚠️warnings⚠️\nSo Don't Spam Until My Master Will Come**"
 )
 
 
@@ -179,7 +179,7 @@ async def on_new_private_message(event):
         # userbot's should not reply to other userbot's
         # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
         return
-    sender = await bot.get_entity(chat_id)
+    sender = await bot.get_entity(event.chat_id)
 
     if chat_id == bot.uid:
 
@@ -198,7 +198,8 @@ async def on_new_private_message(event):
         # don't log verified accounts
 
         return
-
+    if Config.PMSECURITY == "ON":
+        return
     if not pmpermit_sql.is_approved(chat_id):
         # pm permit
         await do_pm_permit_action(chat_id, event)
