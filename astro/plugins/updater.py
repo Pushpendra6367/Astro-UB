@@ -42,7 +42,7 @@ async def updateme_requirements():
         return repr(e)
 
 
-@borg.on(lightning_cmd(pattern="update ?(.*)"))
+@borg.on(admin_cmd(pattern="update ?(.*)"))
 async def upstream(ups):
     await ups.edit("Checking for new updates\nIf any came🤷")
     conf = ups.pattern_match.group(1)
