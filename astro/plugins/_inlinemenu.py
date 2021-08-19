@@ -268,7 +268,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
 
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"statcheck")))
     async def rip(event):
-        text = telestats
+        text = astrostats
         await event.answer(text, alert=True)
 
     @tgbot.on(
