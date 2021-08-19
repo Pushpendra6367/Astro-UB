@@ -125,7 +125,7 @@ async def upstream(ups):
         await ups.edit(
             'Force-Updating to latest stable code, please wait sir😁...')
     else:
-        await ups.edit('__Updating your` 𝙰𝚜𝚝𝚛𝚘🌌 `please wait for a while_'_)
+        await ups.edit('__Updating your` 𝙰𝚜𝚝𝚛𝚘🌌 `please wait for a while__')
         await asyncio.sleep(4)
         await ups.edit('Updated 🌌Astro✨\nRestarting it please have patience and enjoy botless life for a while\n😁✌️ ')
         await borg.disconnect()
