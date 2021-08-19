@@ -1,5 +1,5 @@
 #Astro-UB 
-
+# © Alone_loverboy
 from os import remove, execle, path, makedirs, getenv, environ
 from shutil import rmtree
 
