@@ -76,6 +76,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 buttons=buttons,
                 link_preview=False,
             )
+        await event.answer([result] if result else None)
         elif event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
@@ -91,6 +92,8 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                 ],
             )
+            
+        await event.answer([result] if result else None)
         elif event.query.user_id == bot.uid and query.startswith("**PM"):
             TELEBT = USER_BOT_NO_WARN.format(DEFAULTUSER, myid, MESAG)
             result = builder.photo(
@@ -107,6 +110,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     [custom.Button.inline("What is this❓", data="wht")],
                 ],
             )
+        await event.answer([result] if result else None)
         elif event.query.user_id == bot.uid and query == "repo":
             result = builder.article(
                 title="Repository",
@@ -122,6 +126,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     [Button.url("Support✌️", "https://t.me/Astro_HelpChat")],
                 ],
             )
+        await event.answer([result] if result else None)
         else:
             result = builder.article(
                 "Source Code",
