@@ -77,7 +77,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 buttons=buttons,
                 link_preview=False,
             )
-            await event.answer([result] if result else None)
+            await event.answer([result])
         elif event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
