@@ -19,7 +19,7 @@ if CMD_HNDLR is None:
 @astro.on(admin_cmd(pattern="help ?(.*)"))
 async def cmd_list(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
-        tgbotusername = Var.TG_BOT_USER_NAME_BF_HER
+        tgbotusername = Config.BOT_USERNAME
         input_str = event.pattern_match.group(1)
         if tgbotusername is None or input_str == "text":
             string = ""
