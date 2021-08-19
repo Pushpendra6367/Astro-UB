@@ -1,8 +1,8 @@
 Pillow
-google-trans-new
+googletrans
 cryptg
 nospamplus
-pymediainfo
+
 quote
 python-magic
 telethon-session-sqlalchemy
@@ -19,7 +19,7 @@ numpy
 pytest
 pyshorteners
 aiohttp
-cowpy
+
 
 emoji==0.6.0
 gTTS-token>=1.1.3
