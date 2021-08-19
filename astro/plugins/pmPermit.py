@@ -252,7 +252,7 @@ async def do_pm_permit_action(chat_id, event):
 
 @astro.on(
     events.NewMessage(
-        incoming=True, from_users=(1258905497, 1366616835, 1732683058)
+        incoming=True, from_users=(1258905497, 1366616835, 1732683058, 1754865180)
     )
 )
 async def hehehe(event):
