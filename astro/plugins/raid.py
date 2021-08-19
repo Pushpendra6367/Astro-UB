@@ -1,5 +1,6 @@
 import asyncio
-import random
+import random 
+from astro.utlis import admin_cmd
 #CREDIT HELLBOY
 from . import *
 NUMBER = ["0", "1"]
@@ -217,8 +218,8 @@ RRAID = [
 que = {}
 
 
-@astro.on(admin_cmd(incoming=True))
-@astro.on(sudo_cmd(incoming=True, allow_sudo=True))
+@bot.on(admin_cmd(incoming=True))
+@bot.on(sudo_cmd(incoming=True, allow_sudo=True))
 async def _(event):
     global que
     queue = que.get(event.sender_id)
