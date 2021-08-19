@@ -125,9 +125,9 @@ async def upstream(ups):
         await ups.edit(
             'Force-Updating to latest stable code, please wait sir😁...')
     else:
-        await ups.edit('`Updating your` 𝙰𝚜𝚝𝚛𝚘🌌 `please wait for a while`')
+        await ups.edit('__Updating your` 𝙰𝚜𝚝𝚛𝚘🌌 `please wait for a while_'_)
         await asyncio.sleep(4)
-        await ups.edit('Updated Sur✨\nRestarting it please have patience and enjoy botless life for a while\n😁✌️ ')
+        await ups.edit('Updated 🌌Astro✨\nRestarting it please have patience and enjoy botless life for a while\n😁✌️ ')
         await borg.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
     # You probably don't need it but whatever
@@ -152,7 +152,7 @@ async def upstream(ups):
             )
             repo.__del__()
             return
-        await ups.edit('`Updating Started 😎😎✨\nRestarting, please wait 5min then type .alive to check if I alive!!!🙂`'
+        await ups.edit('Updating Started 😎😎✨\nRestarting, please wait 5min then type .alive to check if I alive!!!🙂\n Report Errors at @Astro_HelpChat'
                        )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
