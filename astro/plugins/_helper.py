@@ -9,7 +9,7 @@ from astro.config import Config
 NAME = Config.NAME
 
 DEFAULTUSER = str(NAME) if NAME else "Astro User✨"
-CMD_HNDLR = Config.CMD_HNDLR
+CMD_HNDLR = Config.HNDLR
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✨")
 
 if CMD_HNDLR is None:
