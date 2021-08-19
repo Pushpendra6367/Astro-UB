@@ -4,7 +4,7 @@
 import os
 
 from astro import CMD_HELP, CMD_HNDLR, CMD_LIST
-from astro.Config import Config
+from astro.config import Config
 
 NAME = Config.NAME
 
