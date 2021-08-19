@@ -234,8 +234,8 @@ async def _(event):
             reply_to=event.message.id,
         )
 
-@astro.on(admin_cmd(pattern="raid(?: |$)(.*)"))
-@astro.on(sudo_cmd(pattern="raid(?: |$)(.*)", allow_sudo=True))
+@bot.on(admin_cmd(pattern="raid(?: |$)(.*)"))
+@bot.on(sudo_cmd(pattern="raid(?: |$)(.*)", allow_sudo=True))
 async def _(event):
     global que
     if event.fwd_from:
@@ -266,8 +266,8 @@ async def _(event):
         await event.edit(f"TERI BHEN CHODUNGA AB DEKHTE JA. {username}")
 
 
-@astro.on(admin_cmd(pattern="stopraid(?: |$)(.*)"))
-@astro.on(sudo_cmd(pattern="stopraid(?: |$)(.*)", allow_sudo=True))
+@bot.on(admin_cmd(pattern="stopraid(?: |$)(.*)"))
+@bot.on(sudo_cmd(pattern="stopraid(?: |$)(.*)", allow_sudo=True))
 async def _(event):
     global que
     if event.fwd_from:
