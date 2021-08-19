@@ -57,8 +57,8 @@ elif Config.LOAD_MYBOT == "False":
     )
 
 CUSTOM_HELP_EMOJI = os.environ.get("CUSTOM_HELP_EMOJI", "✨")
-HELP_ROWS = int(os.environ.get("HELP_ROWS", 4))
-HELP_COLOUMNS = int(os.environ.get("HELP_COLOUMNS", 3))
+HELP_ROWS = int(os.environ.get("HELP_ROWS", 5))
+HELP_COLOUMNS = int(os.environ.get("HELP_COLOUMNS", 4))
 
 if Config.BOT_USERNAME is not None and tgbot is not None:
 
