@@ -91,7 +91,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                 ],
             )
-        elif event.query.user_id == bot.uid and query.startswith("**PM"):
+        elif event.query.user_id == bot.uid and query.startswith("__knock"):
             ASTROBT = USER_BOT_NO_WARN.format(DEFAULTUSER, myid, MESAG)
             result = builder.photo(
                 file=ASTRO_PIC,
