@@ -92,10 +92,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 ],
             )
         elif event.query.user_id == bot.uid and query.startswith("**PM"):
-            TELEBT = USER_BOT_NO_WARN.format(DEFAULTUSER, myid, MESAG)
+            ASTROBT = USER_BOT_NO_WARN.format(DEFAULTUSER, myid, MESAG)
             result = builder.photo(
-                file=TELEPIC,
-                text=TELEBT,
+                file=ASTRO_PIC,
+                text=ASTROBT,
                 buttons=[
                     [
                         custom.Button.inline("To Request 😓", data="req"),
