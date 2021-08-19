@@ -1,6 +1,6 @@
 import asyncio
 import random 
-from astro.utlis import admin_cmd
+from astro.utils import admin_cmd
 #CREDIT HELLBOY
 from . import *
 NUMBER = ["0", "1"]
