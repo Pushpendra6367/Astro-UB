@@ -42,8 +42,8 @@ if Config.LOAD_MYBOT == "True":
         "__knock Knock__👀\nWho is There✨**This is PM SECURITY OF [{}](tg://user?id={})**\nBY ƛsτʀ๏ υsєяъ๏т\n\n"
         "{}\n\n"
         "Something Important you Have?🤔\nSorry But I can't Approve You 🙂Until My master Says\n"
-        "TRY TO **PM** via {} if Something Important"
-        "\nPlease choose why you are here, from the available options\n\n".format(
+        "\n TRY TO **PM** via {} if Something Important"
+        "\nPlease choose why you are here, from the available options:\n\n".format(
             DEFAULTUSER, myid, MESAG, botname
         )
     )
