@@ -35,7 +35,7 @@ USER_BOT_NO_WARN = (
     "__knock Knock__👀\nWho is There✨**This is PM SECURITY OF [{}](tg://user?id={})**\nBY ƛsτʀ๏ υsєяъ๏т\n\n"
         "{}\n\n"
         "\nPlease choose why you are here, from the available options"
-    "{}\n\n**You have** `{}/{}` **⚠️warnings⚠️\nSo Don't Spam Until My Master Will Come**"
+    "\n\n**You have** `{}/{}` **⚠️warnings⚠️\nSo Don't Spam Until My Master Will Come**"
 )
 
 
