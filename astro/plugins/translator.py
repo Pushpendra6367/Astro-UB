@@ -6,7 +6,7 @@ from astro import CMD_HELP
 from astro.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
-@astro.on(lightning_cmd("tr ?(.*)"))
+@astro.on(admin_cmd("tr ?(.*)"))
 @astro.on(sudo_cmd("tr ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
