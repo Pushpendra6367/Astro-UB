@@ -14,7 +14,7 @@ from astro.utils import admin_cmd
 from astro.config import Config
 
 NAME = Config.NAME
-PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
+PMPERMIT_PIC = Config.PM_PIC
 ASTRO_PIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
