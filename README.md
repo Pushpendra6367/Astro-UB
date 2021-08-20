@@ -114,5 +114,5 @@ Released under [GNU](/LICENSE) by [ @Pushpendra6367](https://github.com/Pushpend
 </details>
 
 # README BY 
-https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/NIKKUIII)
+[![]https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/NIKKUIII)]
 
