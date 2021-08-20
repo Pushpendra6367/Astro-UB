@@ -113,4 +113,6 @@ Released under [GNU](/LICENSE) by [ @Pushpendra6367](https://github.com/Pushpend
 - The userbot will not work without setting the mandatory vars.
 </details>
 
+# README BY 
+https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/NIKKUIII)
 
