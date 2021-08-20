@@ -111,8 +111,10 @@ Released under [GNU](/LICENSE) by [ @Pushpendra6367](https://github.com/Pushpend
     - `BOT_TOKEN`:   Make a Bot from [Botfather](https://t.me/botfather) and paste the bot token here.
     - `BOT_USERNAME`:   Paste the Username of bot that you made from [BotFather](https://t.me/botfather).
 - The userbot will not work without setting the mandatory vars.
-</details>
-
 # README BY 
 [![]https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/NIKKUIII)]
+
+
+</details>
+
 
