@@ -70,9 +70,9 @@
 
 <a href="https://t.me/Astro_HelpChat"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
-[![Contact Us](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/Nikkuiii)
+[![Contact Us](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/Alone_loverboy)
 
-<details>
+</details>
 
   <summary> <h3>• LICENSE •</h3> </summary>
 
@@ -80,7 +80,7 @@
 
 Copyright (C) 2021 Pushpendra6367
 
-Poject [Dark bot](https://github.com/Pushpendra6367/Dark-userbot) is free software: you can redistribute it and/or modify
+Poject [Astro-UB](https://github.com/PsychoBots/Astro-UB) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
@@ -103,7 +103,7 @@ Released under [GNU](/LICENSE) by [ @Pushpendra6367](https://github.com/Pushpend
     - `APP_ID`:   You can get this value from [here](https://my.telegram.org)
     - `API_HASH`:   You can get this value from [here](https://my.telegram.org)
     - `ENV`:   `ANYTHING`
-    - `STRING_SESSION`:   You can get this value from running `python3 string_session.py` in termux after cloning this repo. Or just using [repl run](https://repl.it/@darkharshop/darkbot-string-generator#main.py)
+    - `STRING_SESSION`:   You can get this value from running `python3 string_session.py` in termux after cloning this repo. Or just using [repl run](https://replit.com/@loverboyXD/SESSIONSTRING-GEN#main.py)
     - `LOG_GROUP`:   Make a Channel Or Group and get it's id.
     - `DATABASE_URL`:   Make a database on elephant sql and paste the url.
     - `DB_URI`:   Same as `DATABASE_URL`
