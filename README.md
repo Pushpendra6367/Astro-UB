@@ -11,7 +11,7 @@
 [![Astro-UB](https://telegra.ph/file/108c39f8df108b9f0972a.jpg)](https://t.me/Astro_HelpChat)
 
 
-<details><summary> <h1 align="center">🧾INSTRUCTIONS🧾</h1> </summary>
+<details><summary> <h1 align="center">🧾𝙸𝙽𝚂𝚃𝚁𝚄𝙲𝚃𝙸𝙾𝙽𝚂🧾</h1> </summary>
 
   - Read carefully
         
@@ -24,7 +24,7 @@
         - Please ask to owner before using codes.
 </details>
 
-<details><summary> <h1 align="center">⚡ DEPLOYING ⚡</h1> </summary>
+<details><summary> <h1 align="center">⚡ 𝙳𝙴𝙿𝙻𝙾𝚈𝙸𝙽𝙶 ⚡</h1> </summary>
  
 
 ### DEPLOY TO HERUOKU
@@ -40,7 +40,7 @@
        - Or any other hosting sites.
 </details>
 
-<details><summary> <h1 align="center">Generating String Session</h1> </summary>
+<details><summary> <h1 align="center">𝚂𝚃𝚁𝙸𝙽𝙶 𝚂𝙴𝚂𝚂𝙸𝙾𝙽</h1> </summary>
  
 
 ## 
@@ -64,7 +64,7 @@
 
 </details>
 
-<details><summary> <h1 align="center">Official Support</h1> </summary>
+<details><summary> <h1 align="center">𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 </h1> </summary>
  
 <a href="https://t.me/Astro_UserBot"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 
@@ -74,7 +74,7 @@
 
 </details>
 
-  <summary> <h3>• LICENSE •</h3> </summary>
+ <details><summary> <h3>• 𝙻𝙸𝙲𝙴𝙽𝚂𝙴 •</h3> </summary>
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
@@ -94,9 +94,10 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 Released under [GNU](/LICENSE) by [ @Pushpendra6367](https://github.com/Pushpendra6367).
+
 </details>
 
-<details> <summary> <h3>• Mandatory Vars •</h3> </summary>
+<details> <summary> <h3>•𝙼𝙰𝙽𝙳𝙰𝚃𝙾𝚁𝚈 𝚅𝙰𝚁𝚂•</h3> </summary>
 
   - Some of the environment variables are mandatory.
 - These are listed below.
